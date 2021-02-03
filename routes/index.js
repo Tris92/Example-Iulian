@@ -1,9 +1,9 @@
 const express = require("express");
-const { check, validationResult } = require("express-validator");
+const { check, validationResult } = require("express-validator")
 const router = express.Router();
 const mongoose = require('mongoose');
 
-mongoose.connect("mongodb+srv://Eddo:1Landrover@codingcluster.rr02d.mongodb.net/codingsupport?retryWrites=true&w=majority",
+mongoose.connect("mongodb+srv://Tristan:example_iulian@cluster0.vtsyy.mongodb.net/Example-Iulian?retryWrites=true&w=majority",
 { useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false,
